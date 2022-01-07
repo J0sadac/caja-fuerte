@@ -15,26 +15,27 @@ body {
   flex-wrap: wrap;
 }
 .contenedor-listas .lista {
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
   width: 420px;
   margin: 20px;
 }
 .contenedor-listas .lista .contenido {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
   margin-top: 0px;
   padding: 10px;
   font-size: 21px;
+  cursor: pointer;
 }
 .contenedor-listas .lista .opciones {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
   padding: 0px 10px;
-  margin-top: -20px;
+  margin-top: -21px;
 }
 .contenedor-listas .lista .opciones .botones {
   margin-top: 12px;
